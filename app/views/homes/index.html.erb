@@ -34,9 +34,9 @@
         <% end %>
     <% end %>
     <br>
-    <div id="comment_with_jquery">
+    <div id='comment_with_jquery'>
         <% p.comments.each do |c| %>
-            <div id="one_comment_<%=c.id%>">
+            <div id='one_comment_<%=c.id%>'>
                 <% if user_signed_in? %>
                     <% if current_user.email == c.user %>
                         <strong>댓글작성자:</strong> '나'

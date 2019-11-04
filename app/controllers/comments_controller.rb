@@ -8,6 +8,7 @@ class CommentsController < ApplicationController
         @comment.post_id = params[:post_id]
         @comment.save
         
+        
         # redirect_to request.referrer
         
         respond_to do |format|
